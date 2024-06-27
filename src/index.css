@@ -1,0 +1,70 @@
+body {
+  background-color: #202020;
+  color: #fff;
+}
+
+.product-list {
+text-align: center;
+margin-top: 100px;
+background-color: darkslategray;
+border: 3px solid hsla(0, 0%, 85%, 0.75);
+border-radius: 5px;
+
+}
+
+.delete-button {
+  background-color: tomato;
+  color: white;
+}
+
+.up-button {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.down-button {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.add-button {
+  background-color: darkcyan;
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 10px
+}
+
+h1 {
+  font-size: 45px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 1.3rem;
+  border: none;
+  margin: 4px; 
+}
+
+input {
+  font-size: 1.6rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+ol {
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: auto;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
